@@ -390,6 +390,7 @@ public abstract class CombatActor : WalkableCreature, ICombatActor
         return true;
     }
 
+
     private bool CanAttackEnemy(ICombatActor enemy)
     {
         if (Guard.IsNull(enemy)) return false;
