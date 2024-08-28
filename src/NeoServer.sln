@@ -101,8 +101,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeoServer.Shared.IoC", "Sha
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{375DC12D-D9D6-4CB9-808F-1FC186C57BFD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Front", "Front", "{8870BF8F-000B-40B2-A347-4F5AE0C09D97}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
