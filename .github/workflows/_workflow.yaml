@@ -27,9 +27,3 @@ jobs:
       project: ./${{ inputs.path }}/${{ inputs.project }}
       deploy: ${{ inputs.deploy }}
       test: ${{ inputs.test }}
-  quality:
-    name: CodeQL Analysis
-    needs: [ build ]
-    uses: ./.github/workflows/_codeql.yaml
-    with:
-      path: $GITHUB_WORKSPACE/${{ inputs.path }}
